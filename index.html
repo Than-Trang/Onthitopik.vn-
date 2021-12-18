@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+	<title>Onthitopik.vn</title>
+</head>
+<body>
+	<div class="relative">
+		<div class="fixed right-6 bottom-12">
+			<div class="border-[8px] mt-[10px] cursor-pointer messenger rounded-full">
+				<i class="fab text-white text-[45px] rounded-full bg-[#03a9f4] fa-facebook-messenger"></i>
+			</div>
+		</div>
+		<header>
+			<div class="section-banner">
+				<div class="bg-[#03a9f4]">
+					<div class="text-white max-w-screen-1170 mx-auto flex-wrap flex 768:justify-end  items-center justify-between" >
+						
+						<div class="flex justify-center w-full py-[6px] 768:justify-end ">
+							
+							<div class=" flex flex-wrap ">
+								<div class="px-[5px]">
+									<a href="#" class="cursor-pointer">
+										<i class="mr-[3px] fas fa-user-alt"></i>
+										<span>Đăng Nhập</span>
+									</a>
+								</div>
+								<p>/</p>
+								<div class="px-[5px]">
+									<a href="#" class="cursor-pointer">
+										<i class="mr-[3px] far fa-registered"></i>
+										<span>Đăng kí</span>
+									</a>
+									
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class=""  data-flickity='{ "cellAlign": "left", "contain": true, "pageDots": false }'>
+					<div class="banner1 h-[410px] w-full bg-cover bg-right">
+						<div class="max-w-screen-1170 mx-auto flex flex-col justify-center h-full" >
+							<div class="div-banner text-center  mx-auto 768:ml-[120px]">
+								<h1 class="text-banner font-bold uppercase text-[42px] text-black">Topik online</h1>
+								<p class="text-banner mb-[30px] mt-[20px] text-[18px] text-black ">Chào mừng bạn đến với trang ôn thi topik</p>
+								<button class="btn-baner text-white bg-[#03a9f4] hover:bg-[#e2a241] rounded-md px-[10px] py-[5px]">Click now</button>
+							</div>
+						</div>
+					</div>
+					<div class="banner1 h-[410px] w-full bg-cover bg-right">
+						<div class="max-w-screen-1170 mx-auto flex flex-col justify-center h-full" >
+							<div class="div-banner text-center ml-[5px] 768:ml-[120px]">
+								<h1 class="text-banner font-bold uppercase text-[42px] text-black">Topik online</h1>
+								<p class="text-banner mb-[30px] mt-[20px] text-[18px] text-black ">Chào mừng bạn đến với trang ôn thi topik</p>
+								<button class="btn-baner text-white bg-[#03a9f4] rounded-md px-[10px] py-[5px]">Click now</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<div class="bg-[#fff] border-b-[1px] shadow-md">
+				<div class="flex flex-wrap px-[5px] max-w-screen-1170 mx-auto justify-between ">
+					<div class="logo flex items-center "><img class="h-[66px]" src="images/logo3.png" alt="logo"></div>
+					<button id="menu" class="relative 1024:hidden"><i class="fas fa-bars fa-2x mr-[5px] cursor-pointer"></i></button>
+					<nav id="nav-menu" class="hidden 1024:flex list-none items-center font-semibold text-black py-[18px] ">
+						<li class=" relative px-4 py-[18px]" ><a class="px-4 py-2 cursor-pointer text-white 1024:bg-[#03a9f4] 1024:hover:text-white 1024:hover:bg-[#03a9f4] 1024:rounded-full border-0" href="#">Trang chủ</a></li>
+						<li class="w-full li-menu1 relative px-4 py-[18px]" >
+							<span class="px-4 py-2 cursor-pointer hover:text-white hover:bg-[#03a9f4] rounded-full border-0">Giới thiệu<i class="hidden 1024:block ml-[6px] fas fa-caret-down"></i></span> 
+							
+							<nav class="hidden absolute left-[16px] mt-[10px] w-[150%] shadow-sm bg-white item-menu1">
+								<li class="px-4 py-2 cursor-pointer hover:text-white hover:bg-[#03a9f4]">Hệ thống</li>
+								<li class="px-4 py-2 cursor-pointer hover:text-white hover:bg-[#03a9f4]">Hướng dẫn ôn thi</li>
+								<li class="px-4 py-2 cursor-pointer hover:text-white hover:bg-[#03a9f4]">Hướng dẫn ôn luyện</li>
+								<li class="px-4 py-2 cursor-pointer hover:text-white hover:bg-[#03a9f4]">Bài thi Topik</li>
+							</nav>
+						</li>
+						<li class="relative li-menu2 px-4 py-[18px]" ><span class="px-4 py-2 cursor-pointer hover:text-white hover:bg-[#03a9f4] rounded-full border-0">Ôn luyện<i class="ml-[6px] fas fa-caret-down"></i></span>
+							<nav class="hidden absolute left-[16px] mt-[10px] w-[150%] shadow-sm bg-white item-menu2">
+								<li class="px-4 py-2 cursor-pointer hover:text-white hover:bg-[#03a9f4]">Ngữ pháp</li>
+								<li class="px-4 py-2 cursor-pointer hover:text-white hover:bg-[#03a9f4]">Nghe</li>
+								<li class="px-4 py-2 cursor-pointer hover:text-white hover:bg-[#03a9f4]">Đọc</li>
+								<li class="px-4 py-2 cursor-pointer hover:text-white hover:bg-[#03a9f4]">Viết</li>
+								<li class="px-4 py-2 cursor-pointer hover:text-white hover:bg-[#03a9f4]">Từ vựng</li>
+							</nav>
+						</li>
+						<li class="relative li-menu3 px-4 py-[18px]" ><span class="px-4 py-2 cursor-pointer hover:text-white hover:bg-[#03a9f4] rounded-full border-0">Ôn thi<i class="ml-[6px] fas fa-caret-down"></i></span>
+						<nav class="hidden absolute left-[16px] mt-[10px] w-[150%] shadow-sm bg-white item-menu3">
+								<li class="px-4 py-2 cursor-pointer hover:text-white hover:bg-[#03a9f4]">Làm đề Topik 1</li>
+								<li class="px-4 py-2 cursor-pointer hover:text-white hover:bg-[#03a9f4]">Làm đề Topik 2</li>
+								<li class="px-4 py-2 cursor-pointer hover:text-white hover:bg-[#03a9f4]">Làm đề Topik 3</li>
+								<li class="px-4 py-2 cursor-pointer hover:text-white hover:bg-[#03a9f4]">Trộn đề</li>
+							</nav></li>
+						<li class="relative li-menu4 px-4 py-[18px]" ><span class="px-4 py-2 cursor-pointer hover:text-white hover:bg-[#03a9f4] rounded-full border-0">Kinh nghiệm<i class="ml-[6px] fas fa-caret-down"></i></span>
+						<nav class="hidden absolute left-[16px] mt-[10px] w-[150%] shadow-sm bg-white item-menu4">
+								<li class="px-4 py-2 cursor-pointer hover:text-white hover:bg-[#03a9f4]">Cá nhân đã thi</li>
+								<li class="px-4 py-2 cursor-pointer hover:text-white hover:bg-[#03a9f4]">Kinh nghiệm chung</li>
+							</nav> </li>
+						<li class="relative li-menu5 pl-4 py-[18px]" ><span class="px-4 py-2 cursor-pointer hover:text-white hover:bg-[#03a9f4] rounded-full border-0">Trang cá nhân<i class="ml-[6px] fas fa-caret-down"></i></span>
+						<nav class="hidden absolute right-0 text-right mt-[10px] w-[150%] shadow-sm bg-white item-menu5">
+								<li class="px-4 py-2 cursor-pointer hover:text-white hover:bg-[#03a9f4]">Tổng quan</li>
+								<li class="px-4 py-2 cursor-pointer hover:text-white hover:bg-[#03a9f4]">Ngữ pháp đã học</li>
+								<li class="px-4 py-2 cursor-pointer hover:text-white hover:bg-[#03a9f4]">Từ vựng đã học</li>
+								<li class="px-4 py-2 cursor-pointer hover:text-white hover:bg-[#03a9f4]">Phân tích hiệu quả</li>
+							</nav> </li>
+					</nav>
+				</div>
+			</div>
+			
+		</header>
+		<div class="bg-[#fff] h-9">
+			<!-- <div class="max-w-screen-1170 flex mx-auto ">
+				<div class="content w-2/3 px-[10px]">
+					<p class="font-bold text-[25px] text-black">Đề Thi</p>
+					<nav class="menu-conten mx-[-10px] list-none flex mt-5">
+						<li class="px-[10px] cursor-pointer"><a class="px-[10px] bg-[#03a9f4] text-white hover:text-white hover:bg-[#03a9f4] rounded-full py-[5px] border-[1px] border-[#7777]" href="#">Nghe</a></li>
+						<li class="px-[10px] cursor-pointer"><a class="px-[10px] hover:text-white hover:bg-[#03a9f4] rounded-full py-[5px] border-[1px] border-[#7777]" href="#">Nói</a></li>
+						<li class="px-[10px] cursor-pointer"><a class="px-[10px] hover:text-white hover:bg-[#03a9f4] rounded-full py-[5px] border-[1px] border-[#7777]" href="#">Đọc</a></li>
+						<li class="px-[10px] cursor-pointer"><a class="px-[10px] hover:text-white hover:bg-[#03a9f4] rounded-full py-[5px] border-[1px] border-[#7777]" href="#">Viết</a></li>
+					
+					</nav>
+					<div class="mt-[40px] flex flex-wrap mx-[-10px]">
+						<div class="w-1/3 px-[10px] mt-[20px] ">
+							<p class="py-20 text-center rounded-md border-[1px] hover:bg-[#ecf1f1] hover:shadow-md">Đê thi sô 1</p>
+						</div>
+						<div class="w-1/3 px-[10px] mt-[20px] ">
+							<p class="py-20 text-center rounded-md border-[1px] hover:bg-[#ecf1f1] hover:shadow-md">Đê thi sô 1</p>
+						</div>
+						<div class="w-1/3 px-[10px] mt-[20px] ">
+							<p class="py-20 text-center rounded-md border-[1px] hover:bg-[#ecf1f1] hover:shadow-md">Đê thi sô 1</p>
+						</div>
+						<div class="w-1/3 px-[10px] mt-[20px] ">
+							<p class="py-20 text-center rounded-md border-[1px] hover:bg-[#ecf1f1] hover:shadow-md">Đê thi sô 1</p>
+						</div>
+						<div class="w-1/3 px-[10px] mt-[20px] ">
+							<p class="py-20 text-center rounded-md border-[1px] hover:bg-[#ecf1f1] hover:shadow-md">Đê thi sô 1</p>
+						</div>
+						<div class="w-1/3 px-[10px] mt-[20px] ">
+							<p class="py-20 text-center rounded-md border-[1px] hover:bg-[#ecf1f1] hover:shadow-md">Đê thi sô 1</p>
+						</div>
+						<div class="w-1/3 px-[10px] mt-[20px] ">
+							<p class="py-20 text-center rounded-md border-[1px] hover:bg-[#ecf1f1] hover:shadow-md">Đê thi sô 1</p>
+						</div>
+					</div>
+				</div>
+				<div class="w-1/3 px-[10px]"></div>
+				
+			</div> -->
+			<!-- <div class="phantrang max-w-screen-1170 flex mx-auto justify-center py-[40px]">
+				<span class="px-[10px] rounded-md mr-[10px] py-[5px] text-black border-[1px] border-[#90cecb] bg-[#03a9f4]">1</span>
+				<span class="px-[10px] rounded-md  mr-[10px] py-[5px] text-black border-[1px] border-[#90cecb] hover:bg-[#03a9f4]">2</span>
+				<span class="mr-[10px] flex flex-col justify-end font-bold">...</span>
+				<span class="px-[10px] rounded-md  py-[5px] text-black border-[1px] border-[#90cecb] hover:bg-[#03a9f4]">5</span>
+			</div> -->
+			
+		</div>
+		<footer>
+			<div class="w-full  bg-[#fff]">
+				<div class="max-w-screen-1170 mx-auto border-t-[1px]  ">
+					<div class="mx-0 768:mx-[-15px] flex flex-wrap">
+						<div class="w-full  768:w-1/4 px-[15px] ">
+							<div class="pt-12 mt-5 pb-6">
+								<p class="mb-4">Nền tảng luyện thi Topik online duy nhất tại Việt Nam</p>
+								<p class="mb-4">Email: <a href="#" class="hover:underline">ppt@gmail.com</a> </p>
+								<div class="mx-[-10px] ">
+									<a href="#" class="cursor-pointer"><i class="px-[10px] text-[#03a9f4] fab fa-facebook-f"></i></a>
+									<a href="#" class="cursor-pointer"><i class="px-[10px] text-[#03a9f4] fab fa-google-plus-g"></i></a>
+									<a href="#" class="cursor-pointer"><i class="px-[10px] text-[#03a9f4] fab fa-instagram"></i></a>
+									<a href="#" class="cursor-pointer"><i class="px-[10px] text-[#03a9f4] fab fa-twitter"></i></a>
+								</div>
+							
+							</div>
+						</div>
+						<div class="w-full 768:w-1/4 px-[15px]">
+							<div class="pt-12 pb-6">
+								<h2 class="font-bold uppercase text-[19.2px] text-black">About</h2>
+								<div class="">
+									<p class="py-[5px]">Topik online</p>
+									<p class="py-[5px]">Topik online</p>
+									<p class="py-[5px]">Topik online</p>
+									<p class="py-[5px]">Topik online</p>
+									<p class="py-[5px]">Topik online</p>
+								</div>
+							</div>
+						</div>
+						<div class="w-full 768:w-1/4 px-[15px]">
+							<div class="pt-12 pb-6">
+								<h2 class="font-bold uppercase text-[19.2px] text-black">Contact</h2>
+								<div class="">
+									<p class="py-[5px]">Topik online</p>
+									<p class="py-[5px]">Topik online</p>
+									<p class="py-[5px]">Topik online</p>
+									<p class="py-[5px]">Topik online</p>
+									<p class="py-[5px]">Topik online</p>
+								</div>
+							</div>
+						</div>
+						<div class="w-full 768:w-1/4 px-[15px]">
+							<div class="pt-12 pb-6 "><p class="mb-4 uppercase text-black font-bold text-[19.2px]">MOBILE APP</p> </div>
+							<div class="flex mx-[-15px]">
+								<a href="#" class="w-1/2 px-[15px] mt-[11px]">
+									<img class="mb-[15px]" src="https://tryhsk.com/img/app_play.60524daa.png" alt="">
+									<img class="mb-[15px]" src="https://tryhsk.com/img/app_store.3d2b6a8f.png" alt="">
+								</a>
+								<img class="w-1/2 px-[15px]" src="data:image/png;base64,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QgAAwoQAAIQJAQAIEwIAECYEACBMCABAmBAAgDBDh3ibicN6tgy5mTrY6Mbglhvv1ampw6xObXmvnpzTxOdxixUBAAgTAgAQJgQAIEwIAECYEACAMCEAAGFCAADChAAAhAkBAAgTAgAQJgQAIMysgUOb9pd+txv7g295HtX3aursh/K+86fMAfh8VgQAIEwIAECYEACAMCEAAGFCAADChAAAhAkBAAgTAgAQJgQAIEwIAECYEACAMCEAAGHpoUNTB57wui3PcOKApqn39sZAGUNrXrflN1gebGRFAADChAAAhAkBAAgTAgAQJgQAIEwIAECYEACAMCEAAGFCAADChAAAhAkBAAhbNWvA/uCfzfN73Zb99svPfMu1u47PZ0UAAMKEAACECQEACBMCABAmBAAgTAgAQJgQAIAwIQAAYUIAAMKEAACECQEACBMCABAmBAAgTAgAQJgQAIAwIQAAYUIAAMKEAACECQEACBMCABAmBAAgTAgAQJgQAIAwIQAAYUIAAMKEAACECQEACBMCABAmBAAgTAgAQJgQAIAwIQAAYUIAAMKEAACECQEACBMCABAmBAAgTAgAQJgQAIAwIQAAYUIAAMKEAACECQEACBMCABAmBAAgTAgAQJgQAIAwIQAAYUIAAMJ+/b30314CAIj5+vr3D4a5Bvg7vBspAAAAAElFTkSuQmCC" alt="">
+
+							</div>
+							
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="bg-[#03a9f4] text-center py-[17px] text-white"></div>
+		</footer>
+	</div>
+	<script type="text/javascript">
+		$('#menu').click(function(){
+			$('#nav-menu').toggleClass('menu-mobile');
+		})
+	</script>
+</body>
+</html>

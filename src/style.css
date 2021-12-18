@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+	font-family:Roboto,sans-serif;
+	font-size: 14px;
+	color: #777777;
+	background: #fff;
+}
+.banner1{
+	background-image: url(../images/bg.png);
+	background-repeat: no-repeat;
+}
+.banner2{
+	background-image: url(../images/banner2.png);
+}
+.banner3{
+	background-image: url(../images/banner4.png);
+}
+.li-menu1:hover .item-menu1{
+	display: block;
+}
+.li-menu2:hover .item-menu2{
+	display: block;
+}
+.li-menu3:hover .item-menu3{
+	display: block;
+}
+.li-menu4:hover .item-menu4{
+	display: block;
+}
+.li-menu5:hover .item-menu5{
+	display: block;
+}
+.sidebar{
+	height: unset;
+}
+.text-banner{
+	text-shadow: 5px 2px 4px grey;
+}
+.btn-baner,.div-banner{
+	width: fit-content;
+}
+.messenger{
+	border-color: #03a9f4;
+}
+.menu-mobile{
+	display: block;
+	position: absolute;
+	background-color: aquamarine;
+	width: 100%;
+	right: 0;
+	margin-top: 67px;
+}
